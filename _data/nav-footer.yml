@@ -1,2 +1,14 @@
-- link: Legal
-  url: #
+- title: email Steven
+  label: steven@gottliebgroupcom.com
+  url: mailto:steven@gottliebgroupcom.com
+  icon: email
+
+- title: Tap to call
+  label: 206-427-9591
+  url: tel:206-427-9591
+  icon: phone
+
+- title: connect on linkedIn
+  label: LinkedIn
+  url: linkedin.com
+  icon: linkedin

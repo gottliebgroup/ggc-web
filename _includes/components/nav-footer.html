@@ -1,7 +1,7 @@
 <nav>
-  <ul class="menu clearfix float-right">
+  <ul class="list-styled">
     {% for item in site.data.nav-footer %}
-      <li><a href="{{ item.url }}">{{ item.link }}</a></li>
+      <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.label }}</a></li>
     {% endfor %}
   </ul>
 </nav>

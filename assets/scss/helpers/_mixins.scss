@@ -1,3 +1,42 @@
 // --------------------------------------------------
 // Mixins
 // --------------------------------------------------
+
+@mixin animation($arg){
+    // -webkit-animation: $arg;
+    // -moz-animation: $arg;
+    // -o-animation: $arg;
+    animation: $arg;
+}
+@mixin keyframes($animationName) {
+    // @-webkit-keyframes #{$animationName} {
+    //     @content;
+    // }
+    // @-moz-keyframes #{$animationName} {
+    //     @content;
+    // }
+    // @-o-keyframes #{$animationName} {
+    //     @content;
+    // }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+@mixin bg-fill ($align...) {
+    background:{
+        repeat: no-repeat !important;
+        position: $align !important;
+        size: cover;
+    }
+}
+@mixin pulse { //
+    @include keyframes( pulse ) {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.2;
+        }
+    }
+    @include animation (pulse 2s infinite);
+}

@@ -1,2 +1,10 @@
 //  Foundation for Sites Settings
 //  -----------------------------
+$charcoal: hsl(220, 5%, 7%);
+$color-red: hsl(349, 62%, 50%);
+$color-red-dark: adjust-color($color-red, $lightness: -10%);
+$color-amber: hsl(22, 53%, 51%); // hsl(37, 40%, 35%);
+$color-amber-dark: adjust-color($color-amber, $lightness: -10%);
+$color-blue-green: #2E6175;
+$color-brand: $color-blue-green;
+$pad-section: 6vw;

@@ -2,3 +2,298 @@
 
 // Theme
 // --------------------------------------------------
+
+$headlines: (
+    headline-1: 54,
+    headline-2: 42,
+    headline-3: 36,
+    headline-4: 30,
+    headline-5: 24,
+    subhead   : 18
+);
+
+@mixin opacity($alpha){
+    opacity: $alpha;
+}
+@mixin container-pad() {
+    // padding: 5.5vw 4vw;
+    padding: 2rem 1rem; // any rows & cols should handle padding at small viewports. - AW
+}
+
+$font-family-headline: 'Work Sans', sans-serif;
+$font-family-text: 'Crimson Text', serif;
+
+html { font-size: calc(105% + 0.3vw) }
+html, body {
+    font-family: $font-family-text;
+}
+
+h1, h2, h3, h4, h5, h6 {font-size: 1.1em;} // zero it out
+.headline-1, .headline-2, .headline-3, .headline-4, .headline-5 {
+    font-family: $font-family-headline;
+    font-weight: 700;
+}
+@each $headline, $size in $headlines {
+    .#{$headline} {
+        font-size: calc(#{$size * 0.5}px + 1vw);
+    }
+}
+.headline-4 {
+    color: $color-brand;
+}
+.quote-large {
+    margin: 1rem 0 2rem 0;
+    font: {
+        size: 2.5rem;
+        family: $font-family-text;
+        style: italic;
+        weight: 400;
+    }
+}
+
+.section {
+    &-pad {
+        padding: $pad-section 0;
+    }
+    &-pad--sm {
+        padding: 2vw 3vw;
+    }
+    &-pad--lg {
+        padding: $pad-section $pad-section * 0.6;
+    }
+    &-h-full {
+        min-height: 100vh;
+    }
+    &-line {
+        border-bottom: 5px solid $color-amber-dark;
+    }
+    &-nav {
+        font-size: smaller;
+    }
+}
+#intro {
+    padding-top: calc($pad-section + 40px);
+}
+.section-pad + .section-pad {
+    padding-top: 0.5rem;
+}
+.section-pad.container-brand {
+    padding-top: $pad-section;
+}
+.container { // this is generally only for color & image settings on containers
+    &-white {
+        background-color: white;
+    }
+    &-brand {
+        background-color: $color-brand;
+        color: white;
+        a {
+            color: white;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.icon {
+    &-xlarge {
+        height: 2rem;
+    }
+}
+.bg-fill-brand {
+    background-image: url(https://i.imgur.com/qMcL9be.png);
+    @include bg-fill (center center);
+}
+.drop {
+    box-shadow: 0 4px 8px 0 rgba(3,23,63,0.2);
+}
+a {
+    // font-family: $font-family-headline;
+    font-weight: 700;
+}
+// .ribbon {
+//     &-white {
+//         border: 1px solid white;
+//         padding: 0.1em 0.3em;
+//         display: inline-block;
+//         margin-bottom: 0.3em;
+//     }
+//     &-black {
+//         border: 1px solid black;
+//         padding: 0.1em 0.3em;
+//         display: inline-block;
+//         margin-bottom: 0.3em;
+//     }
+// }
+.spaced-out {
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+.text {
+    &-black {color: black;}
+    &-white {color: white;}
+    &-spaced {
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
+    &-right-on-medium {
+        text-align: right;
+    }
+    &-light {
+        font-weight: 300;
+    }
+    &-bold {
+        font-weight: 700;
+        color: $color-brand;
+    }
+    &-sans {
+        font-family: $font-family-headline;
+    }
+    &-serif {
+        font-family: $font-family-text;
+    }
+}
+.nav-item {
+    @extend .text-sans;
+}
+.sticky {
+    transition: opacity 100ms linear;
+        opacity: 0;
+        &.is-anchored {
+            opacity: 0;
+        }
+        &.is-stuck {
+            opacity: 1;
+    }
+}
+.list-styled {
+    list-style-type: none;
+    margin-left: 0;
+    @extend .text-sans;
+    font-size: smaller;
+}
+.text-callout {
+    @extend .spaced-out;
+    font: {
+        family: $font-family-headline;
+        weight: 300;
+        size: 1.2rem;
+    }
+    color: $color-brand;
+}
+.name {
+    @extend .text-serif;
+    font-weight: 400;
+}
+.logo-small {
+    max-height: 2rem;
+}
+// .thumb {
+//     &-med {
+//         max-width: 4rem;
+//     }
+// }
+.button {
+    font-family: $font-family-headline;
+    font-weight: 700;
+    @extend .text-spaced;
+    &.primary {
+        background-color: $color-brand;
+        &:hover, &:active {
+            background-color: adjust-color($color-brand, $lightness: -10%);
+        }
+        color: white;
+    }
+    &.secondary {
+        background-color: white;
+        &:hover {
+            background-color: adjust-color(white, $lightness: -10%);
+        }
+        color: $charcoal;
+    }
+}
+
+.svg-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    & svg {
+        height: 1em;
+        width: 1em;
+    }
+    &.svg-baseline svg {
+        bottom: -0.125em;
+        position: absolute;
+    }
+}
+a[href^="tel:"] {
+    font-weight: 700;
+    font-family: $font-family-headline;
+    @extend .text-white;
+    &:before {
+        content: "\260e";
+        margin-right: 0.5em;
+    }
+}
+a[href^="mailto:"] {
+    font-weight: 700;
+    font-family: $font-family-headline;
+    @extend .text-white;
+    &:before {
+        content: "\2709";
+        margin-right: 0.5em;
+    }
+}
+.logo {
+    padding: 2rem;
+    &-main {
+        // height: 10rem;
+        width: calc(80% + 0.5vw);
+        max-height: 10rem;
+    }
+}
+.icon-next {
+    margin-top: 6rem;
+}
+// animation stuff
+.pulse {
+    @include pulse;
+ }
+svg g path {
+    &.logo-line {fill:none; stroke:#ffffff; stroke-miterlimit:10; stroke-width:8px}
+    &.words {fill:#fff; opacity: 0;}
+    &.line-anim-0 {
+        stroke-dasharray: 436 438;
+        stroke-dashoffset: 437;
+        animation: line-anim-draw 1450ms ease 0ms forwards;
+    }
+    &.line-anim-1 {
+        stroke-dasharray: 307 309;
+        stroke-dashoffset: 308;
+        animation: line-anim-draw 1450ms ease 25ms forwards;
+    }
+    &.line-anim-2 {
+        stroke-dasharray: 120 122;
+        stroke-dashoffset: 121;
+        animation: line-anim-draw 1450ms ease 50ms forwards;
+    }
+    &.words-1 {
+        animation: fade-in 500ms ease 800ms forwards;
+    }
+    &.words-2 {
+        animation: fade-in 700ms ease 1200ms forwards;
+    }
+}
+
+@keyframes line-anim-draw {
+  100% {
+      stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fade-in {
+    0%   { opacity: 0; transform: translateX(40px);}
+    100% { opacity: 1; }
+}
