@@ -1,4 +1,6 @@
-# Jekyll Foundation
+Static site based on Jekyll, Zurb Foundation, and Gulp.
+
+## Jekyll Foundation
 
 [![Build Status](https://travis-ci.org/Foundation-for-Jekyll-sites/jekyll-foundation.svg)](https://travis-ci.org/Foundation-for-Jekyll-sites/jekyll-foundation)
 [![devDependencies](https://david-dm.org/Foundation-for-Jekyll-sites/jekyll-foundation/dev-status.svg)](https://david-dm.org/Foundation-for-Jekyll-sites/jekyll-foundation#info=devDependencies)
