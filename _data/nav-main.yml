@@ -1,8 +1,8 @@
 - link: Home
   url: /
 
-- link: Blog
-  url: /blog
+- link: articles
+  url: /articles
 
 - link: Sample Page
   url: /samplepage
