@@ -49,3 +49,4 @@ Gemfile.lock
 
 # Composer
 composer.lock
+yarn-error.log
