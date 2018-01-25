@@ -40,3 +40,11 @@
     }
     @include animation (pulse 2s infinite);
 }
+
+@mixin opacity($alpha){
+    opacity: $alpha;
+}
+@mixin container-pad() {
+    // padding: 5.5vw 4vw;
+    padding: 2rem 1rem; // any rows & cols should handle padding at small viewports. - AW
+}
