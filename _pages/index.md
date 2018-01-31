@@ -4,7 +4,7 @@ layout: index
 title: Gottlieb Group Consulting
 ---
 <a id="top"></a>
-<section class="container-brand">
+<section class="container-brand fixed">
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-middle section-h-full">
       <div class="cell small-12 text-center">
@@ -23,6 +23,7 @@ title: Gottlieb Group Consulting
     {% endfor %}
   </ul>
 </nav>
+<div class="container-white">
 <section class="section-pad" id="intro">
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-center">
@@ -102,3 +103,4 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </section>
+</div>
