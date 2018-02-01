@@ -31,6 +31,12 @@ exclude:
 # Plugins
 # Add plugins in the Gemfile
 
+plugins:
+  - jekyll-inline-svg
+# svg:
+#   optimize: true
+
+
 # Conversion
 incremental:      true
 

@@ -10,14 +10,17 @@ title: Gottlieb Group Consulting
       <div class="cell small-12 text-center">
       	{% include components/logo-large.html %}
         <div class="div text-center"><a href="#intro" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="-40" data-animation-easing="swing">
-        	<svg class="arrow pulse icon-xlarge icon-next" id="ggc-arrow-down" data-name="arrow-down" viewBox="0 0 87 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet"><use xlink:href="#arrow_stroke" transform="translate(2 2)" fill="#FFF"/><defs><path id="arrow_stroke" d="M41.5 41.5l-1.768 1.768 1.768 1.767 1.768-1.767L41.5 41.5zM-1.768 1.768l41.5 41.5 3.536-3.536-41.5-41.5-3.536 3.536zm45.036 41.5l41.5-41.5-3.536-3.536-41.5 41.5 3.536 3.536z"/></defs></svg>
+        	{% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-xlarge icon-next svg-color--white"  preserveAspectRatio="xMidYMid meet" %}
         </a></div>
       </div>
     </div>
   </div>
 </section>
 <nav class="section-nav show-for-medium" data-sticky-container="data-sticky-container">
-  <ul class="menu container-white drop align-center" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
+  <ul class="menu container-brand drop align-center" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
+    <li>
+      {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white logo-nav"  preserveAspectRatio="xMidYMid meet" %}
+    </li>
   	{% for item in site.data.sections-home %}
       <li data-smooth-scroll="data-smooth-scroll" data-offset="20" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
@@ -73,8 +76,14 @@ title: Gottlieb Group Consulting
         <p>Gottlieb received Highest Honors from the University of California, Santa Cruz, earning a Bachelor of Arts in Modern Society and Social Thought. His paper about the American Press during the Holocaust resides at the United States Holocaust Museum and Archives in Washington DC.</p>
         <p>Sports and competition have always played an important part in his life: Steven is a two-time NCAA All-American and 1989 NCAA tennis champion. And he provide pro bono counsel to the International Tennis Hall of Fame in Newport, Rhode Island.</p>
         <p>Two central components of Gottlieb’s life are business and sports. And listening to jazz is something he enjoys doing in his free time. Jazz is also an important connective tissue for how he marries business focus and athletic roots. In business and sports there is an improvisational necessity that occurs within set and agreed upon boundaries. He uses “Giant Steps” in his company’s tagliine (“Take Giant Steps In Impact and Influence”) for a reason. Giants Steps was recorded by John Coltrane in 1959 and stands out as a standard because of Coltrane’s mission to present a unified sound without highlighting any individual sound.</p>
-        <p class="text-sans">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant Steps.</p>
+        <p class="text-sans text-larger">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant Steps.</p>
+        <p>
+          <a href="#contact" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="" data-animation-easing="swing">
+            {% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-large svg-color--brand"  preserveAspectRatio="xMidYMid meet" %}
+          </a>
+        </p>
       </div>
     </div>
   </div>
 </section>
+

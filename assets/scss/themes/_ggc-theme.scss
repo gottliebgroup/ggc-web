@@ -88,12 +88,19 @@ h1, h2, h3, h4, h5, h6 {font-size: 1.1em;} // zero it out
     }
 }
 .icon {
+    &-inline {
+        height: 1em;
+        width:  1em;
+    }
+    &-large {
+        height: 1.5rem;
+    }
     &-xlarge {
         height: 2rem;
     }
 }
 .bg-fill-brand {
-    background-image: url(https://i.imgur.com/qMcL9be.png);
+    background-image: url(/assets/img/ggc-pattern-tint.png);
     @include bg-fill (center center);
 }
 .drop {
@@ -140,25 +147,15 @@ a {
         border-bottom: 1px solid $medium-gray;
         padding: 0.5em 0;
     }
-}
-.nav-item {
-    @extend .text-sans;
-}
-.sticky {
-    transition: opacity 100ms linear;
-        opacity: 0;
-        &.is-anchored {
-            opacity: 0;
-        }
-        &.is-stuck {
-            opacity: 1;
+    &-larger {
+        font-size: larger;
     }
 }
 .list-styled {
     list-style-type: none;
     margin-left: 0;
     @extend .text-sans;
-    font-size: smaller;
+    // font-size: smaller;
 }
 .text-callout {
     @extend .spaced-out;
@@ -176,11 +173,32 @@ a {
 .logo-small {
     max-height: 2rem;
 }
+.logo-nav {
+    padding: 0.5rem 0 0 0;
+}
 // .thumb {
 //     &-med {
 //         max-width: 4rem;
 //     }
 // }
+
+.nav-item {
+    @extend .text-sans;
+    font-weight: 400;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.sticky {
+    transition: opacity 100ms linear;
+        opacity: 0;
+        &.is-anchored {
+            opacity: 0;
+        }
+        &.is-stuck {
+            opacity: 1;
+    }
+}
 .button {
     font-family: $header-font-family;
     font-weight: 700;
@@ -214,6 +232,24 @@ a {
     &.svg-baseline svg {
         bottom: -0.125em;
         position: absolute;
+    }
+}
+.svg-color {
+    &--white {
+        fill:    white;
+        path:    white;
+        ellipse: white;
+        circle:  white;
+        polygon: white;
+        rect:    white;
+    }
+    &--brand {
+        fill:    $color-brand;
+        path:    $color-brand;
+        ellipse: $color-brand;
+        circle:  $color-brand;
+        polygon: $color-brand;
+        rect:    $color-brand;
     }
 }
 // a[href^="tel:"] {
