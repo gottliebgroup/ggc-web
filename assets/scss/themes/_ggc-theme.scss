@@ -128,7 +128,7 @@ a {
         }
     }
     &-light {
-        font-weight: 300;
+        font-weight: 400;
     }
     &-bold {
         font-weight: 700;
@@ -161,7 +161,7 @@ a {
     @extend .spaced-out;
     font: {
         family: $header-font-family;
-        weight: 300;
+        weight: 400;
         size: 1.2rem;
     }
     color: $color-brand;
