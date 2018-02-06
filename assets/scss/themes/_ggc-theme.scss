@@ -170,11 +170,29 @@ a {
     @extend .text-serif;
     font-weight: 400;
 }
-.logo-small {
-    max-height: 2rem;
+
+
+.logo {
+    padding: 2rem;
+    &-main {
+        // height: 10rem;
+        width: calc(80% + 0.5vw);
+        max-height: 10rem;
+    }
 }
-.logo-nav {
-    padding: 0.5rem 0 0 0;
+.logo {
+    &-small {
+        max-height: 2rem;
+    }
+    &-medium {
+        max-height: 4rem;
+    }
+    &-nav {
+        padding: 0.5rem 0 0 0;
+    }
+}
+.icon-next {
+    margin-top: 6rem;
 }
 // .thumb {
 //     &-med {
@@ -237,6 +255,7 @@ a {
 .svg-color {
     &--white {
         fill:    white;
+        stroke:  white;
         path:    white;
         ellipse: white;
         circle:  white;
@@ -245,6 +264,7 @@ a {
     }
     &--brand {
         fill:    $color-brand;
+        stroke:  $color-brand;
         path:    $color-brand;
         ellipse: $color-brand;
         circle:  $color-brand;
@@ -270,14 +290,4 @@ a {
 //         margin-right: 0.5em;
 //     }
 // }
-.logo {
-    padding: 2rem;
-    &-main {
-        // height: 10rem;
-        width: calc(80% + 0.5vw);
-        max-height: 10rem;
-    }
-}
-.icon-next {
-    margin-top: 6rem;
-}
+
