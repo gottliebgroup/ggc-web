@@ -3,7 +3,7 @@ permalink: /
 layout: index
 title: Gottlieb Group Consulting
 ---
-<section class="container-brand fixed">
+<section class="container-brand container-vignette fixed">
 <a id="top"></a>
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-middle section-h-half">
@@ -40,17 +40,6 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </section>
-<section class="section-pad">
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x align-center">
-      <div class="cell small-12 text-center">
-        <div class="text-callout">Science + Research</div>
-        <div class="text-callout">Industry + Innovation</div>
-        <div class="text-callout">Civic + Public</div>
-      </div>
-    </div>
-  </div>
-</section>
 <section class="section-pad" id="services">
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-center">
@@ -58,11 +47,22 @@ title: Gottlieb Group Consulting
         <h2 class="headline-4">Services</h2>
       </div>
       <div class="cell small-12 medium-9 large-6">
-        <p>To help clients make impactful decisions and reinforce or advance identify, Gottlieb Group Communications utilize techniques from corporate communications, content creation, film production, management consulting, research, and public affairs. The firm is also brought into special situations.</p>
+        <p>To help clients make impactful decisions and reinforce or advance identify, Gottlieb Group Communications utilize techniques from <strong>corporate communications, content creation, film production, management consulting, research, and public affairs.</strong> The firm is also brought into special situations.</p>
         <p class="text-callout-emphasis">In addition to developing projects with and for clients, the firm also pursues the development of their own initiatives. Our areas of focus are in sports, education, and a more civil discourse on civic and public policy related issues. If you want to hear more, feel free to <a href="#contact" title="Connect with Gottlieb Group">ask and inquire</a>.</p>
       </div>
     </div>
   </div>
+  <aside class="section-pad--sm">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x align-center">
+        <div class="cell small-12 text-center">
+          <div class="text-callout">Science + Research</div>
+          <div class="text-callout">Industry + Innovation</div>
+          <div class="text-callout">Civic + Public</div>
+        </div>  
+      </div>
+    </div>
+  </aside>
 </section>
 <section class="section-pad" id="bio">
   <div class="grid-container">
@@ -71,17 +71,27 @@ title: Gottlieb Group Consulting
         <h2 class="headline-4">Biography</h2>
       </div>
       <div class="cell small-12 medium-9 large-6">
-        <p>Over the course of his career, Steven has worked with a broad and diverse set of organizations from Fortune 100 companies to founders of emerging technologies companies; scientists working in the fields of materials science, energy storage, and vaccines; financiers of innovation and real estate; top administrators of health care systems and university presidents; artists and athletes; elected officials and government institutions; and global aid and health professionals.</p>
+        <p><strong>Over the course of his career, Steven has worked with a broad and diverse set of organizations</strong> from Fortune 100 companies to founders of emerging technologies companies; scientists working in the fields of materials science, energy storage, and vaccines; financiers of innovation and real estate; top administrators of health care systems and university presidents; artists and athletes; elected officials and government institutions; and global aid and health professionals.</p>
         <p>Earlier in his career, he held various positions at the Anti-Defamation League, in Denver and San Diego, where he oversaw regional civil rights initiatives and managed public opinion on a variety of First Amendment issues.</p>
-        <p>Gottlieb received Highest Honors from the University of California, Santa Cruz, earning a Bachelor of Arts in Modern Society and Social Thought. His paper about the American Press during the Holocaust resides at the United States Holocaust Museum and Archives in Washington DC.</p>
-        <p>Sports and competition have always played an important part in his life: Steven is a two-time NCAA All-American and 1989 NCAA tennis champion. And he provide pro bono counsel to the International Tennis Hall of Fame in Newport, Rhode Island.</p>
-        <p>Two central components of Gottlieb’s life are business and sports. And listening to jazz is something he enjoys doing in his free time. Jazz is also an important connective tissue for how he marries business focus and athletic roots. In business and sports there is an improvisational necessity that occurs within set and agreed upon boundaries. He uses “Giant Steps” in his company’s tagliine (“Take Giant Steps In Impact and Influence”) for a reason. Giants Steps was recorded by John Coltrane in 1959 and stands out as a standard because of Coltrane’s mission to present a unified sound without highlighting any individual sound.</p>
-        <p class="text-sans text-larger">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant Steps.</p>
+        <p>Gottlieb received Highest Honors from the University of California, Santa Cruz,  earning a Bachelor of Arts in Modern Society and Social Thought. His paper about the American Press during the Holocaust resides at the United States Holocaust Museum and Archives in Washington DC. </p>
+        <p><strong>Sports and competition have always played an important part in his life:</strong> Steven is a two-time NCAA All-American and 1989 NCAA tennis champion. And he provides pro bono counsel to the International Tennis Hall of Fame in Newport, Rhode Island.</p>
+        <p><strong>Two central components of Gottlieb’s life are business and sports.</strong> And listening to jazz is something he enjoys doing in his free time. Jazz is also an important connective tissue for how he marries business focus and athletic roots. In business and sports there is an improvisational necessity that occurs within set and agreed upon boundaries. He uses “Giant Steps” in his company’s tagline (“Take Giant Steps In Impact and Influence”) for a reason. Giants Steps was recorded by John Coltrane in 1959 and stands out as a standard because of Coltrane’s mission to present a unified sound without highlighting any individual sound.</p>
+
+      </div>
+    </div>
+    <div class="grid-x grid-margin-x align-center">
+      <div class="cell small-12 medium-3 large-3 text-right-on-medium">
+        <h3 class="text-callout">Take a Giant Step</h3>
+      </div>
+      <div class="cell small-12 medium-9 large-6">
+        <p class="text-sans text-larger">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant
+        Steps.</p>
         <p>
           <a href="#contact" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="" data-animation-easing="swing">
             {% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-large svg-color--brand"  preserveAspectRatio="xMidYMid meet" %}
           </a>
         </p>
+
       </div>
     </div>
   </div>
