@@ -8,6 +8,7 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
+$global-timing: 150ms;
 
 $charcoal:         hsl(220, 5%, 7%);
 $color-red:        hsl(349, 62%, 50%);
@@ -17,7 +18,7 @@ $color-amber-dark: adjust-color($color-amber, $lightness: -10%);
 $color-blue-green: #2E6175;
 $color-brand:      $color-blue-green;
 
-$pad-section: 6vw;
+$pad-section: 8vw;
 
 $foundation-palette: (
   primary: $color-brand,

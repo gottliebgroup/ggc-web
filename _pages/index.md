@@ -22,7 +22,7 @@ title: Gottlieb Group Consulting
       {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white logo-nav"  preserveAspectRatio="xMidYMid meet" %}
     </li>
   	{% for item in site.data.sections-home %}
-      <li data-smooth-scroll="data-smooth-scroll" data-offset="20" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
+      <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>
 </nav>
@@ -71,6 +71,10 @@ title: Gottlieb Group Consulting
         <h2 class="headline-4">Biography</h2>
       </div>
       <div class="cell small-12 medium-9 large-6">
+        <aside class="person-vertical float-right">
+          <img class="avatar avatar-large float-right" src="/assets/img/steven-gottlieb-portrait-2018-tighter-crop.jpg" alt="Steven Gottlieb">
+          <div class="person-label">Steven Gottlieb</div>
+        </aside>
         <p><strong>Over the course of his career, Steven has worked with a broad and diverse set of organizations</strong> from Fortune 100 companies to founders of emerging technologies companies; scientists working in the fields of materials science, energy storage, and vaccines; financiers of innovation and real estate; top administrators of health care systems and university presidents; artists and athletes; elected officials and government institutions; and global aid and health professionals.</p>
         <p>Earlier in his career, he held various positions at the Anti-Defamation League, in Denver and San Diego, where he oversaw regional civil rights initiatives and managed public opinion on a variety of First Amendment issues.</p>
         <p>Gottlieb received Highest Honors from the University of California, Santa Cruz,  earning a Bachelor of Arts in Modern Society and Social Thought. His paper about the American Press during the Holocaust resides at the United States Holocaust Museum and Archives in Washington DC. </p>

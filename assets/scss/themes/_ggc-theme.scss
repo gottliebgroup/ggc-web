@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {font-size: 1.1em;} // zero it out
 .headline-4 {
     color: $color-brand;
 }
+a {
+    color: $color-brand;
+    @include link-border ($color-brand);
+}
 .quote-large {
     margin: 1rem 0 2rem 0;
     font: {
@@ -81,9 +85,7 @@ h1, h2, h3, h4, h5, h6 {font-size: 1.1em;} // zero it out
         color: white;
         a {
             color: white;
-            &:hover {
-                text-decoration: underline;
-            }
+            @include link-border ($white);
         }
     }
     &-vignette {
@@ -193,8 +195,6 @@ a {
         width: calc(80% + 0.5vw);
         max-height: 10rem;
     }
-}
-.logo {
     &-small {
         max-height: 2rem;
     }
@@ -213,13 +213,35 @@ a {
 //         max-width: 4rem;
 //     }
 // }
+.person {
+    &-vertical {
+        padding: calc(1.2vw + 0.5rem);
+        padding-top: 0;
+        text-align: center;
+        .avatar {
+            margin-bottom: 1rem;
+        }
+    }
+    &-label {
+        font: {
+            family: $header-font-family;
+            // size: 90%;
+            weight: $global-weight-bold;
+        }
+        color: $color-brand;
+    }
+}
+.avatar {
+    border-radius: 50%;
+    &-large {
+        max-height: calc(6rem + 4vw);
+    }
+}
 
 .nav-item {
     @extend .text-sans;
     font-weight: 400;
-    &:hover {
-        text-decoration: none;
-    }
+    @include link-border ($white);
 }
 .sticky {
     transition: opacity 100ms linear;
