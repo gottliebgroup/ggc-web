@@ -9,9 +9,11 @@ title: Gottlieb Group Consulting
     <div class="grid-x grid-margin-x align-middle section-h-half">
       <div class="cell small-12 text-center">
       	{% include components/logo-large.html %}
-        <div class="div text-center"><a href="#intro" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="-40" data-animation-easing="swing">
-        	{% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-xlarge icon-next svg-color--white"  preserveAspectRatio="xMidYMid meet" %}
-        </a></div>
+        <div class="div text-center">
+          <a href="#intro" class="icon-next" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="-40" data-animation-easing="swing">
+        	{% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-xlarge svg-color--white"  preserveAspectRatio="xMidYMid meet" %}
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -91,8 +93,8 @@ title: Gottlieb Group Consulting
         <p class="text-sans text-larger">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant
         Steps.</p>
         <p>
-          <a href="#contact" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="" data-animation-easing="swing">
-            {% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-large svg-color--brand"  preserveAspectRatio="xMidYMid meet" %}
+          <a href="#contact" class="icon-next" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="" data-animation-easing="swing">
+            {% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-large svg-color--brand" %}
           </a>
         </p>
 

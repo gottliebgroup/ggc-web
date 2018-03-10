@@ -205,8 +205,12 @@ a {
         padding: 0.5rem 0 0 0;
     }
 }
-.icon-next {
+a.icon-next {
     margin-top: 6rem;
+    &:hover { // normally there's a hover style, override this for the big icons
+        text-decoration: none;
+        border-bottom-style: none;
+    }
 }
 // .thumb {
 //     &-med {
