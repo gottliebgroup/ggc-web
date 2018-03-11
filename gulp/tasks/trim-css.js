@@ -10,7 +10,7 @@ var uncss = require('gulp-uncss');
 // });
 
 // Removing unused classes in CSS
-gulp.task('trim-css', ['styles'], function() {
+gulp.task('trim-css', function() {
 	return gulp.src('./assets/css/app.css')
 		.pipe(uncss({
 		html: ['./_site/**/*.html'],

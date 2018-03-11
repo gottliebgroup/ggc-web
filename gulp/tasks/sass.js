@@ -5,6 +5,7 @@ var config        = require('../util/loadConfig').sass;
 var gulp          = require('gulp');
 var isProduction  = require('../util/isProduction');
 var sass          = require('gulp-sass');
+var uncss         = require('gulp-uncss');
 
 gulp.task('sass', function() {
   browserSync.notify(config.notification);
@@ -23,3 +24,14 @@ gulp.task('sass', function() {
     // Auto-inject styles into browsers
     .pipe(browserSync.stream());
 });
+
+
+// gulp.task('trim-css', function() {
+//   return gulp.src('./assets/css/app.css')
+//     .pipe(uncss({
+//     html: ['./_site/**/*.html'],
+//     ignore: [/fp/],
+//     timeout: 1000
+//   }))
+//   .pipe(gulp.dest('./assets/css/uncss/'));
+// });
