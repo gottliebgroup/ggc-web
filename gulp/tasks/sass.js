@@ -5,7 +5,7 @@ var config        = require('../util/loadConfig').sass;
 var gulp          = require('gulp');
 var isProduction  = require('../util/isProduction');
 var sass          = require('gulp-sass');
-var uncss         = require('gulp-uncss');
+// var uncss         = require('gulp-uncss');
 
 gulp.task('sass', function() {
   browserSync.notify(config.notification);
