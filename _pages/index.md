@@ -54,17 +54,19 @@ title: Gottlieb Group Consulting
       </div>
     </div>
   </div>
-  <aside class="section-pad--sm">
+  <aside>
+    <img src="/assets/img/center-illustration.svg" class="art" alt="" />
+  </aside>
+
+ <!--  <aside class="art-bg">
     <div class="grid-container">
-      <div class="grid-x grid-margin-x align-center">
+      <div class="grid-x align-center">
         <div class="cell small-12 text-center">
-          <div class="text-callout">Science + Research</div>
-          <div class="text-callout">Industry + Innovation</div>
-          <div class="text-callout">Civic + Public</div>
+          <img src="/assets/img/center-art-icons.svg" class="" alt="illustration "/>
         </div>  
       </div>
     </div>
-  </aside>
+  </aside> -->
 </section>
 <section class="section-pad" id="bio">
   <div class="grid-container">

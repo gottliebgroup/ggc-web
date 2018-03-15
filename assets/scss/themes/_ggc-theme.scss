@@ -326,3 +326,17 @@ a.icon-next {
     }
 }
 
+.art { // illustration in center
+    margin-top: 1.5rem;
+    width: 100%;
+    &-bg {
+        position: relative;
+        width: 100%;
+        background-image: url(/assets/img/center-art-bg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &work {
+
+    }
+}
