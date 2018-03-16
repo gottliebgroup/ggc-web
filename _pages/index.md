@@ -24,7 +24,7 @@ title: Gottlieb Group Consulting
       {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white logo-nav"  preserveAspectRatio="xMidYMid meet" %}
     </li>
   	{% for item in site.data.sections-home %}
-      <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
+      <li data-smooth-scroll="data-smooth-scroll" data-offset="-30" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>
 </nav>
@@ -54,20 +54,14 @@ title: Gottlieb Group Consulting
       </div>
     </div>
   </div>
-  <aside>
-    <img src="/assets/img/center-illustration.svg" class="art" alt="" />
-  </aside>
-
- <!--  <aside class="art-bg">
-    <div class="grid-container">
-      <div class="grid-x align-center">
-        <div class="cell small-12 text-center">
-          <img src="/assets/img/center-art-icons.svg" class="" alt="illustration "/>
-        </div>  
-      </div>
-    </div>
-  </aside> -->
 </section>
+<aside class="grid-container">
+  <div class="grid-x align-center">
+    <div class="cell small-12 text-center">
+      <img src="/assets/img/ggc-art-rings.svg" class="art" alt="Industry + Innovation | Science + Research | Civi + Public"/>
+    </div>  
+  </div>
+</aside>
 <section class="section-pad" id="bio">
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-center">
@@ -91,8 +85,7 @@ title: Gottlieb Group Consulting
         <h3 class="text-callout">Take a Giant Step</h3>
       </div>
       <div class="cell small-12 medium-9 large-6">
-        <p class="text-sans text-larger group">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant
-        Steps.</p>
+        <p class="text-sans text-larger group">It’s what Gottlieb Group Communications does: bring all the available resources together to develop impact opportunities so clients can take Giant Steps. It’s always about finding a better way.</p>
         <p>
           <a href="#contact" class="icon-next" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="" data-animation-easing="swing">
             {% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-large svg-color--brand" %}

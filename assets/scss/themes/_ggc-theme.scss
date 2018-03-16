@@ -327,16 +327,20 @@ a.icon-next {
 }
 
 .art { // illustration in center
-    margin-top: 1.5rem;
+    // margin-top: 1.5rem;
+    padding: 2vw;
     width: 100%;
-    &-bg {
-        position: relative;
-        width: 100%;
-        background-image: url(/assets/img/center-art-bg.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
+    @include breakpoint(large) {
+        width: 75%;
     }
-    &work {
+    // &-bg {
+    //     position: relative;
+    //     width: 100%;
+    //     background-image: url(/assets/img/center-art-bg.svg);
+    //     background-size: contain;
+    //     background-repeat: no-repeat;
+    // }
+    // &work {
 
-    }
+    // }
 }
