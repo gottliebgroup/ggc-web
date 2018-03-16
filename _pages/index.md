@@ -21,7 +21,7 @@ title: Gottlieb Group Consulting
 <nav class="section-nav show-for-medium" data-sticky-container="data-sticky-container">
   <ul class="menu container-brand drop align-center" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
     <li>
-      {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white logo-nav"  preserveAspectRatio="xMidYMid meet" %}
+      {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white show-for-large logo-nav"  preserveAspectRatio="xMidYMid meet" %}
     </li>
   	{% for item in site.data.sections-home %}
       <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
