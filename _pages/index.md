@@ -24,7 +24,7 @@ title: Gottlieb Group Consulting
       {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white logo-nav"  preserveAspectRatio="xMidYMid meet" %}
     </li>
   	{% for item in site.data.sections-home %}
-      <li data-smooth-scroll="data-smooth-scroll" data-offset="-30" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
+      <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>
 </nav>
@@ -80,6 +80,11 @@ title: Gottlieb Group Consulting
         <p><strong>Two central components of Gottlieb’s life are business and sports.</strong> And listening to jazz is something he enjoys doing in his free time. Jazz is also an important connective tissue for how he marries business focus and athletic roots. In business and sports there is an improvisational necessity that occurs within set and agreed upon boundaries. He uses “Giant Steps” in his company’s tagline (“Take Giant Steps In Impact and Influence”) for a reason. Giants Steps was recorded by John Coltrane in 1959 and stands out as a standard because of Coltrane’s mission to present a unified sound without highlighting any individual sound.</p>
       </div>
     </div>
+
+  </div>
+</section>
+<section class="section-pad" id="step">
+  <div class="grid-container">
     <div class="grid-x grid-margin-x align-center">
       <div class="cell small-12 medium-3 large-3 text-right-on-medium">
         <h3 class="text-callout">Take a Giant Step</h3>
@@ -95,4 +100,3 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </section>
-
