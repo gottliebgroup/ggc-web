@@ -13,19 +13,22 @@ title: Gottlieb Group Consulting
           <a href="#intro" class="icon-next" title="Take a Giant Step" data-smooth-scroll="data-smooth-scroll" data-offset="-40" data-animation-easing="swing">
         	{% svg "/assets/img/icon-arrow-down.svg" class="arrow pulse icon-xlarge svg-color--white"  preserveAspectRatio="xMidYMid meet" %}
           </a>
-        </div>
+        </div>  
       </div>
     </div>
   </div>
 </header>
 <nav class="section-nav show-for-medium" data-sticky-container="data-sticky-container">
-  <ul class="menu container-brand drop align-center" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
+  <ul class="menu container-brand drop align-center transition" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
     <li>
-      {% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white show-for-large logo-nav"  preserveAspectRatio="xMidYMid meet" %}
+      <a class="nav-item nav-logo" href="/" title="main">{% svg "/assets/img/ggc-logo-small.svg" class="svg-color--white show-for-large logo-nav"  preserveAspectRatio="xMidYMid meet" %}</a>
     </li>
-  	{% for item in site.data.sections-home %}
-      <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
+  	{% for item in site.data.nav-main %}
+      <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
+    <li>
+      <a class="nav-item" href="/inspiration" title="Inspiration">Inspiration</a>
+    </li>
   </ul>
 </nav>
 <div class="container-white">
@@ -42,7 +45,14 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </section>
-<section class="section-pad" id="services">
+<aside id="services" class="grid-container">
+  <div class="grid-x align-center">
+    <div class="cell small-12 text-center">
+      <img src="/assets/img/ggc-art-rings.svg" class="art" alt="Industry + Innovation | Science + Research | Civi + Public"/>
+    </div>  
+  </div>
+</aside>
+<section class="section-pad">
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-center">
       <div class="cell small-12 medium-3 large-3 text-right-on-medium">
@@ -55,13 +65,6 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </section>
-<aside class="grid-container">
-  <div class="grid-x align-center">
-    <div class="cell small-12 text-center">
-      <img src="/assets/img/ggc-art-rings.svg" class="art" alt="Industry + Innovation | Science + Research | Civi + Public"/>
-    </div>  
-  </div>
-</aside>
 <section class="section-pad" id="bio">
   <div class="grid-container">
     <div class="grid-x grid-margin-x align-center">

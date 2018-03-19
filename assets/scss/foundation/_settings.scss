@@ -10,13 +10,14 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $global-timing: 150ms;
 
-$charcoal:         hsl(220, 5%, 7%);
-$color-red:        hsl(349, 62%, 50%);
-$color-red-dark:   adjust-color($color-red, $lightness: -10%);
-$color-amber:      hsl(22, 53%, 51%); // hsl(37, 40%, 35%);
-$color-amber-dark: adjust-color($color-amber, $lightness: -10%);
-$color-blue-green: #2E6175;
-$color-brand:      $color-blue-green;
+$charcoal:          hsl(220, 5%, 7%);
+$color-red:         hsl(349, 62%, 50%);
+$color-red-dark:    adjust-color($color-red, $lightness: -10%);
+$color-amber:       hsl(22, 53%, 51%); // hsl(37, 40%, 35%);
+$color-amber-dark:  adjust-color($color-amber, $lightness: -10%);
+$color-blue-green:  #2E6175;
+$color-brand:       $color-blue-green;
+$color-brand-light: adjust-color($color-brand, $lightness: 15%, $saturation: 20%);
 
 $pad-section: 8vw;
 
@@ -135,9 +136,9 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $dark-gray;
+$blockquote-color: $black;
 $blockquote-padding: rem-calc(9 20 0 19);
-$blockquote-border: 1px solid $medium-gray;
+$blockquote-border: 2px solid $color-brand-light;
 $cite-font-size: rem-calc(13);
 $cite-color: $dark-gray;
 $cite-pseudo-content: '\2014 \0020';
