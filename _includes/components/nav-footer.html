@@ -3,7 +3,7 @@
     {% for item in site.data.nav-footer %}
       <li>
       	{% svg "/assets/img/{{ item.icon }}" class="svg-color--white svg-icon icon-inline icon-large"  preserveAspectRatio="xMidYMid meet" %}
-      	<a href="{{ item.url }}" title="{{ item.title }}">{{ item.label }}</a>
+      	<a class="" href="{{ item.url }}" title="{{ item.title }}">{{ item.label }}</a>
       </li>
     {% endfor %}
   </ul>

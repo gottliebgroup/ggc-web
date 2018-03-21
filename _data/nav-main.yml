@@ -1,11 +1,11 @@
-- link: Home
-  url: /
+- title: "Introduction"
+  url: "intro"
 
-- link: articles
-  url: /articles
+- title: "Services"
+  url: "services"
 
-- link: Sample Page
-  url: /samplepage
+- title: "Biography"
+  url: "bio"
 
-- link: Kitchen Sink
-  url: /kitchen-sink
+- title: "Contact"
+  url: "contact"
