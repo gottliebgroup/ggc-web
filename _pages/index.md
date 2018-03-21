@@ -27,7 +27,7 @@ title: Gottlieb Group Consulting
       <li data-smooth-scroll="data-smooth-scroll" data-offset="50" data-animation-easing="swing"><a class="nav-item" href="#{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
     <li>
-      <a class="nav-item" href="/inspiration" title="Inspiration">Inspiration</a>
+      <a class="nav-item" href="/inspire" title="Inspire">Inspire</a>
     </li>
   </ul>
 </nav>
