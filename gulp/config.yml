@@ -59,7 +59,7 @@ javascript:
     # Foundation Plugins
     # - "node_modules/foundation-sites/dist/js/plugins/foundation.abide.js"
     # - "node_modules/foundation-sites/dist/js/plugins/foundation.equalizer.js"
-    # - "node_modules/foundation-sites/dist/js/plugins/foundation.interchange.js"
+    - "node_modules/foundation-sites/dist/js/plugins/foundation.interchange.js"
     - "node_modules/foundation-sites/dist/js/plugins/foundation.toggler.js"
     - "node_modules/foundation-sites/dist/js/plugins/foundation.smoothScroll.js"
     - "node_modules/foundation-sites/dist/js/plugins/foundation.sticky.js"
