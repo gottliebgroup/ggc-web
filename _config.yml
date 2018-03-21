@@ -1,8 +1,12 @@
 # Site settings
-language:               ""
+language:               "english"
 title:                  "Gottlieb Group"
 description:            "The Gottlieb Group develops and improves ideas and strategies to advance market opportunities and to improve community initiatives."
 google-verification:    ""
+url:                    "https://www.gottliebgroup.consulting"
+keywords:               "pr, press, corporate communications, content creation, film production, management consulting, research, public affairs"
+author:                 "Steven Gottlieb"
+# twitter:              ""
 
 # Handling Reading
 include:
