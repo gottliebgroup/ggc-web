@@ -18,6 +18,7 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </header>
+
 <nav class="section-nav show-for-medium" data-sticky-container="data-sticky-container">
   <ul class="menu container-brand drop align-center transition" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
     <li>

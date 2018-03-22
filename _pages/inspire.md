@@ -11,7 +11,7 @@ lead: |
     <div class="grid-x grid-margin-x align-center align-middle">
       <div class="cell small-12 medium-4 large-3 text-right-on-medium">
         <h3 class="headline-5">{{ quote.person }}</h3>
-        {% if quote.role %}<p class="text-sans">{{ quote.role }}</p>{% endif %}
+        {% if quote.role %}<div class="text-sans">{{ quote.role }}</div>{% endif %}
       </div>
       <div class="cell small-12 medium-8 large-6">
         <blockquote class="quote-large">{{ quote.body }}</blockquote>
