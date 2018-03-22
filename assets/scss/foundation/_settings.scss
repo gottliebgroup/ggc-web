@@ -19,7 +19,7 @@ $color-blue-green:  #2E6175;
 $color-brand:       $color-blue-green;
 $color-brand-light: adjust-color($color-brand, $lightness: 15%, $saturation: 20%);
 
-$pad-section: 8vw;
+$pad-section: 10vw;
 
 $foundation-palette: (
   primary: $color-brand,
