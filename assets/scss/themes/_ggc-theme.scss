@@ -54,7 +54,7 @@ a {
 .quote-attribution {
     padding: 0 1.4rem 2rem 1.4rem;
     @include breakpoint (medium) {
-        padding-left: initial;
+        padding: initial;
     }
 }
 
