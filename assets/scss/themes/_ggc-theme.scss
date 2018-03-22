@@ -329,6 +329,11 @@ a.nav-logo {
     margin: 0.5rem;
     transition: color $global-timing linear;
     background-color: $color-brand;
+    .icon {
+        width: 2rem;
+        height: 2rem;
+        stroke: none;
+    }
     &.is-open {
         background-color: white;
         .icon {
