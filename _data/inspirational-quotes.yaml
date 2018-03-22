@@ -1,9 +1,5 @@
 ---
 -
-  person: "Tim Leiweke"
-  role: CEO and Co-Founder, Oak View Group
-  body: "You never get ahead of the Commissioners."
--
   person: "Vikram Jandhyala"
   role: |
     Vice President, Innovation – University of Washington
@@ -30,13 +26,9 @@
   role: Artistic Director, Dance Theater of Harlem
   body: "The stimulation of new influences really enriches the work we do. It’s important to inspire artists to keep creating new things. We need to be asking: how can this art form be a vital part of a good life? How can we be an answer to modern life’s myriad questions?"
 -
-  person: "Mark Morris"
-  role: Choreographer, Mark Morris Dance Group
-  body: "For the arts to thrive and grow in our modern, tech-centric world, we need to maintain and expand access, both for kids who want to learn a craft and to audiences who want to experience a show. But we also need art, music, dance and theater to be fun, to be enjoyable, if we expect people to participate and benefactors to support them. "
--
   person: "Margaret O’Mara"
   role: Associate Professor of History, University of Washington
-  body: "While we need to recognize that while there won’t be “another Silicon Valley,” great innovative regions will emerge – and these will be places with abundant resources, great quality of place, and world-changing institutions. We can empower a region’s people and institutions to be innovators in multiple realms – not just tech innovators, but social innovators as well.  We can think about innovation and inclusion as twinned, mutually reinforcing goals."
+  body: "We can think about innovation and inclusion as twinned, mutually reinforcing goals."
 -
   person: "Ben de Haan"
   role: Executive Director, Partners for Our Children
@@ -51,8 +43,20 @@
   body: "In the past, one of the key innovation challenges was gaining access to data; now it’s turning that data into useful knowledge and then putting it to work in meaningful ways. In other words, moving from data to knowledge to accelerated action."
 -
   person: "Richard Berley"
-  role: Ziontz Chestnut
+  role: Ziontz Chestnut Attorney
   body: "Don’t send a potentially inflammatory email on a Friday afternoon."
 -
   person: "Ginger Ackerley, Kim Cleworth, Ted Ackerley, and Chris Ackerley"
-  body: "Strong companies that grow and prosper help sustain strong communities. They are the engine of growth, and they attract, hire and train our young people – who will be called on to lead the city going forward. We need them to contribute their time, smarts and financial success to the community. Our civic and business leaders must find new ways to connect them with important civic causes, non-profits and philanthropists enabling them to contribute to the fabric of our communities."
+  body: "Our civic and business leaders must find new ways to connect them with important civic causes, non-profits and philanthropists enabling them to contribute to the fabric of our communities."
+-
+  person: "Karl Siebrecht"
+  role: "CEO and co-founder, Flexe"
+  body: "Customers today have a taste for fast, low-cost delivery and there’s no going back. It’s no longer optional, but essential, to cater to the on-demand expectations of the modern economy."
+-
+  person: "Rick Luebbe"
+  role: "Co-founder and CEO, Group 14 Technologies"
+  body: "I don’t know if our future will be a series of small but continuous innovations like the miracle of compound interest, or if we will experience huge disruptive advancements like the discovery of electricity. I am certain though, that our energy technology will continue to advance because of the incredible effort every day from all of the scientists and engineers committed to this challenge. As Thomas Edison said: ‘To have a great idea, have a lot of them.’"
+-
+  person: "Tim Leiweke"
+  role: CEO and Co-Founder, Oak View Group
+  body: "You never get ahead of the Commissioners."

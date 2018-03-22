@@ -43,12 +43,18 @@ a {
     @include link-border ($color-brand);
 }
 .quote-large {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
     font: {
         size: 2.5rem;
         family: $body-font-family;
         style: italic;
         weight: 400;
+    }
+}
+.quote-attribution {
+    padding-left: 1rem;
+    @include breakpoint (medium) {
+        padding-left: initial;
     }
 }
 
