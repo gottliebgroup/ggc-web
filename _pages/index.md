@@ -18,6 +18,18 @@ title: Gottlieb Group Consulting
     </div>
   </div>
 </header>
+
+<nav class="mobile-nav hide-for-medium">
+  <ul class="menu vertical container-brand is-sticky">
+    {% for item in site.data.nav-main %}
+      <li><a class="nav-item" href="/#{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
+    {% endfor %}
+    <li>
+      <a class="nav-item" href="/inspire" title="Inspire">Inspire</a>
+    </li>
+  </ul>
+</nav>
+
 <nav class="section-nav show-for-medium" data-sticky-container="data-sticky-container">
   <ul class="menu container-brand drop align-center transition" data-sticky="data-sticky" data-options="marginTop:0;" data-top-anchor="intro">
     <li>
