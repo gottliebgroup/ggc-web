@@ -16,7 +16,9 @@ html { font-size: calc(105% + 0.3vw) }
 html, body {
     font-family: $body-font-family;
 }
-
+body {
+    height: 100%;
+}
 h1, h2, h3, h4, h5, h6 {font-size: 1.1em;} // zero it out
 .headline-1, .headline-2, .headline-3, .headline-4, .headline-5 {
     font-family: $header-font-family;
@@ -26,6 +28,18 @@ h1, h2, h3, h4, h5, h6 {font-size: 1.1em;} // zero it out
     .#{$headline} {
         font-size: calc(#{$size * 0.5}px + 1vw);
     }
+}
+body.home {
+    height: 100%;
+    background-color: $color-brand;
+    background-color: $color-brand;
+    color: white;
+    a {
+        color: white;
+        @include link-border ($white);
+    }
+    padding: 2rem;
+    padding: 10vw 1rem;
 }
 .pos {
     &-rel {
@@ -59,6 +73,10 @@ a {
 }
 
 .section {
+    &-block-full {
+        height: 100%;
+        overflow: hidden;
+    }
     &-pad {
         padding: $pad-section 1vw;
     }
@@ -78,6 +96,13 @@ a {
         padding: 1rem 0;
         @include breakpoint (large) {
             min-height: 40vw;
+            padding: 1rem;
+        }
+    }
+    &-block-secondary { // header and footer
+        padding: 1rem 0;
+        @include breakpoint (large) {
+            min-height: 20vw;
             padding: 1rem;
         }
     }
@@ -308,7 +333,12 @@ a.nav-logo {
         stroke: none;
     }
 }
-
+a.link-plain {
+    border-bottom: none;
+    &:hover {
+        border-bottom: none;
+    }
+}
 .mobile-nav { // container for mobile nav items
     position: fixed;
     bottom:  0;
